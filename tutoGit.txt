@@ -16,7 +16,7 @@
 
 
 //---------------------------------------------------------
-//    initialisation git
+//    initialisation d'un premier dépôt 
 //
 
  $ mkdir cisco-config
@@ -25,4 +25,25 @@
  $ touch list
  $ git status
  $ git add --all
+ $ git commit -m "dépot initial"
+ 
+ $ git remote add origin https://github.com/lovarakoto/cisco-config.git
+ $ git push -u origin master
+
+//---------------------------------------------------------
+//    pour ignorer certain fichier ou dossier
+//
+
+ $ touch .gitignore
+ $ nano .gitignore
+ 
+// rajouter ligne par ligne les fichiers ou dossiers à ignorer
+
+
+//---------------------------------------------------------
+//    pour ignorer certain fichier ou dossier
+//
+ 
+ 
+
 
