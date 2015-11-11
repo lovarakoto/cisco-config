@@ -1,0 +1,28 @@
+
+
+//---------------------------------------------------------
+//    https://github.com/lovarakoto/cisco-config.git
+//---------------------------------------------------------
+//    configuration environnement git
+//
+
+ $ git config --list
+ 
+ $ git config --global user.name "lovarakoto"
+ $ git config --global user.mail "lovarakoto1@gmail.com"
+ $ git config --global color.diff auto
+ $ git config --global color.status auto
+ $ git config --global color.branch auto
+
+
+//---------------------------------------------------------
+//    initialisation git
+//
+
+ $ mkdir cisco-config
+ $ cd cisco-config
+ $ git init
+ $ touch list
+ $ git status
+ $ git add --all
+
